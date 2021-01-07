@@ -1,0 +1,21 @@
+.table {
+  margin-top: 20px;
+  overflow: scroll;
+  height: 400px;
+  color: #6a5d5d;
+  background-color: white;
+}
+
+.table tr {
+  /* every single row of the table, each of the rows are essentially a container ?????*/
+  display: flex;
+  justify-content: space-between;
+}
+
+.table td {
+  padding: 0.5rem;
+}
+
+.table tr:nth-of-type(odd) /* every single row which is odd number */ {
+  background-color: #f3f2f8;
+}
